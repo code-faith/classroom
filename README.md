@@ -12,7 +12,7 @@ Fico muito feliz por você fazer parte desse programa de aprendizado. Que possam
 ## 🙏 Propósito
 O propósito desse grupo de interesse é buscar enxergar mais sobre Cristo por meio de softwares. O trabalho em equipe e a dedicação ao estudo isolado nos proporciona uma disciplina que reflete também em nossa comunhão diária com o espírito santo.
 
-## Nossos Canais
+## 💬 Nossos Canais
 - Whatsapp
 - Discord ([Link para nosso servidor](https://discord.gg/tsjA8rD4sg))
 
