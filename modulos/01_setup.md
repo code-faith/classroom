@@ -1,4 +1,4 @@
-# 01 (Setup Inicial)
+# 01 - (Setup Inicial)
 Esse módulo ainda não é em si o início de fato do nosso aprendizado que se espera. 
 Ele prioriza gerar um ambiente mínimo para proporcionar com eficiencia o desenvolvimento de software e o conhecimento mínimo de um ambiente "dev" moderno.
 
@@ -11,7 +11,7 @@ O que é importante para um desenvolvedor é ter controle sobre sua "máquina" c
 Para isso esse módulo existe para definir quais serão as ferramentas as serem instaladas em sua máquina.
 Então nesse primeiro módulo iremos instalar as devidas ferramentas para desenvolvermos e conversamos sobre elas na nossa reunião de sábado.
 
-## 1. Sistema Operacional
+## 1 - Sistema Operacional
 
 Existe uma grande possibilidade de você estar lendo isso em uma máquina rodando Windows, porém é recomendado e de extrema necessidade para que possamos aprender e ter um entendimento profundo de fato que rodemos nossos ambientes em um outro sistema operacional que possibilite você ter um acesso mais profundo no controle da máquina.
 
@@ -41,7 +41,7 @@ Link da documentação: https://learn.microsoft.com/pt-br/windows/wsl/install
 
 - Quando terminar sua instalação, tenha em mente que você não verá nada de especial como uma interface completamente nova tipo o seu windows. Você verá apenas um "Terminal de Comando" e isso já é mais do que suficiente para você poder utilizar o sistema.
 
-## 2. Terminal
+## 2 - Terminal
 
 Já tentou imaginar como seria possível mexer no seu computador sem nenhuma interface visual, somente um prompt de comando onde você executa comandos e vê os resultados deles. Pois saiva que é possível fazer isso e muitas das vezes essa é a única forma para desenvolver de maneira produtiva.
 
@@ -56,7 +56,7 @@ Dicas:
 - Se você instalou com sucesso o WSL no seu windows, a própria interface de comando que aparece do seu linux é o seu terminal.
 - Se você nao está usando WSL, você nao precisa instalar nada. Seu terminal está em algum lugar já instalado.
 
-## 3. Git e Github
+## 3 - Git e Github
 Se você ja tem um pouco de contato com o mundo dev, ja deve ter ouvido falar sobre essas duas ferramentas: Git e Github.
 Mas o que é isso?
 
@@ -70,7 +70,7 @@ Criar uma conta no github e enviar no nosso grupo de whatsapp o seu email que fo
 
 Você não precisa ainda instalar git no seu ambiente de desenvolvimento, mas fique a vontade para faze-lo caso queira.
 
-## 4. Editor de Texto
+## 4 - Editor de Texto
 Como dito anteriormente, códigos não são nada além do que textos escritos para outros humanos lerem. E para podermos editar nossos textos, é importante usarmos uma ferramenta que facilite esse serviço para nós.
 
 A ferramenta escolhida pela maioria dos desenvolvedores e a que usaremos nesse grupo de interesse é o [Visual Studio Code](https://code.visualstudio.com/) (apelidado carinhosamente de VS Code).
