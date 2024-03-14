@@ -1,11 +1,11 @@
-# 02 (Hello, World!)
+# 02 - (Hello, World!)
 No nosso módulo passado, buscamos compreender melhor as funcionalidades do nosso terminal e do sistema operacional.
 Aprendemos sobre alguns comandos e que estes são nada menos do que arquivos binários que recebem argumentos e executam uma determinada tarefa.
 
 ## Objetivos
 Nesse módulo iremos abordar sobre os binários de execução de uma linguagem de programação e iremos escrever nossa primeira linha de código em `ruby`.
 
-## 1. Package Managers
+## 1 - Package Managers
 É de comum acordo que haja uma organização para fazermos downloads de pacotes diferentes. 
 Pacotes são nada mais do que conjunto de arquivos que servem um propósito que podem ser instalados na sua máquina local.
 
@@ -19,7 +19,7 @@ Para Mac, temos o: `brew` ([Homebrew](https://brew.sh))
 - Este precisa ser instalado no seu SO (Sistema Operacional).
 - Para isso, acesse a [página do homebrew](https://brew.sh) e siga as instruções para instalá-lo.
 
-## 2. Instalação do Ruby
+## 2 - Instalação do Ruby
 Antes de aprendermos sobre o ruby de fato, vamos manter no tópico de instalação instalando os binarios do ruby para que possamos executar arquivos de textos com a interpretação do ruby.
 
 Para instalar, vamos utilizar o exemplo da documentação do ruby.
@@ -44,14 +44,14 @@ Depois da instalação, você pode checar
   ruby --version
 ```
 
-## 3. Linguagem de Programação
+## 3 - Linguagem de Programação
 O conceito de linguagem é nada mais do que um conjunto de padrões de comunicação entre dois ou mais pontos como o inglês, português, etc.<br>
 Esse mesmo pretexto funciona para linguagens de programação. Elas possuem um padrão de comunicação que executam tarefas binárias no seu SO e permitem que o que vai ser feito possa ser interpretado por outras pessoas.
 
 Para isso, linguagens de programação são escrita em arquivos de texto e são interpretados ou compilados traduzir seu texto em binários que seu processador irá entender.<br>
 Seu processador não entende o texto que você escreveu baseado no padrão estabelecido pela sua linguagem de programação. O seu processador entende instruções binárias e quem sabe traduzir seu texto para essas instruções pode ser um compilador ou um interpretador.
 
-### 3.1 Compiladores
+### 3.1 - Compiladores
 Compiladores são ferramentas que entendem seu texto escrito baseado nos padrões da sua linguagem de programação, geram os binários de execução e criam um arquivo com esses binários.
 Após a geração desses binários estáticos, você vai poder executa-los de maneira direta sem nenhuma tradução simultanea.
 
@@ -68,7 +68,7 @@ Após a geração desses binários estáticos, você vai poder executa-los de ma
 - Binários específicos da plataforma: O código compilado é frequentemente específico da arquitetura do seu processador, dessa forma seu código tem que ser compilado várias vezes para diferentes processadores para funcionar globalmente.
 - Falta de Interatividade: Como a compilação é uma etapa separada da execução, pode ser menos interativa durante o desenvolvimento em comparação com a interpretação, onde as alterações podem ser testadas rapidamente sem recompilação.
 
-### 3.2 Interpretadores
+### 3.2 - Interpretadores
 Interpretadores são ferramentas que possuem o mesmo entendimento do seu código, porém ele adiciona uma camada de abstração que geralmente faz traduções simultaneas em tempo de execução do seu código.<br>
 Essa abstração no geral são máquinas virtuais que compilam seu código em `bytecode` (instruções binárias otimizadas que somente a máquina virtual entende) e traduzem para binários nativos do seu processador.
 
@@ -84,7 +84,7 @@ Essa abstração no geral são máquinas virtuais que compilam seu código em `b
 - Dependência do Interpretador: O código interpretado requer a presença de um interpretador na máquina de destino, que pode nem sempre estar disponível ou atualizado.
 - Riscos de Segurança: Como o código-fonte original geralmente é distribuído com programas interpretados, ele pode ser mais vulnerável à engenharia reversa e modificações não autorizadas.
 
-### 3.2.1 Qual é melhor?
+### 3.2.1 - Qual é melhor?
 A resposta como sempre é: depende. Em geral, se duas ou mais coisas existem e são constantemente utilizadas, é porque dependem de um cenário específico.
 
 - Linguagens compiladas sempre vão ser mais rápidas e eficientes do que interpretadas, mas costumam ser mais difíceis de compreender e escrever devido a um conjunto de regras que permitam essa rapidez e eficiência serem cobertas.
@@ -92,14 +92,14 @@ A resposta como sempre é: depende. Em geral, se duas ou mais coisas existem e s
 - Linguagens interpretadas sempre vão ser mais simples de desenvolver e mais facéis de receberem novas implementações, possibilitando um ambiente mais dinâmico de desenvolvimento. Mas o que permite essa flexibilidade afeta na velocidade dessas linguagens.
 > Exemplos de uso: Aplicações web, apps mobile, serviçoes que dependem mais de rapidez no desenvolvimento a praticidade de uso.
 
-## 4. Ruby
+## 4 - Ruby
 [Ruby](https://en.wikipedia.org/wiki/History_of_Ruby#:~:text=The%20history%20of%20the%20Ruby,the%20Ruby%20on%20Rails%20framework.) é uma linguagem de programação interpretada criada no Japão por *Yukihiro Matsumoto* em 1993.
 O que faz essa linguagem ser a escolhida por nós para desenvolvermos ao longo do nosso grupo é a simplicidade de uso. Sua forma de escrever é bem simples e chega as vezes a parecer com que você está lendo um texto em ingles de fato.
 
-### 4.1 Sintaxe
+### 4.1 - Sintaxe
 Toda linguagem tem um padrão de escrita para ser executada. Para compreender melhor sobre como o código de ruby costuma ser escrito, leia o que puder nessa [documentação](https://en.wikipedia.org/wiki/Ruby_syntax).
 
-## 5. Minha primeira linha de código
+## 5 - Minha primeira linha de código
 Vamos executar nossa primeira linha de código em ruby. Para isso precisamos de seguir o passo a passo:
 
 1. Crie uma pasta no seu terminal que você gostaria de separar para códigos, vou usar o exemplo `coding`:
