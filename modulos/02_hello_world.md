@@ -156,7 +156,7 @@ Bob
 Alice
 ```
 
-## 5.1 O que aconteceu?
+### 5.1 O que aconteceu?
 Para resumir o que aconteceu no código:
 
 1. Executamos o comando `ruby` que espera interpretar um arquivo de texto para binários nativos. No caso apontamos o arquivo `main.rb`
@@ -165,7 +165,7 @@ Para resumir o que aconteceu no código:
 4. Iteramos por esta lista com o comando `.each`, percorrendo texto a texto.
 5. Para cada linha printamos (imprimimos) o texto armazenado na variável `name` no terminal com o comando `puts`
 
-## 5.2 Não entendi nada do que você falou
+### 5.2 Não entendi nada do que você falou
 Essa reação é de se esperar em uma introdução a programação, não se preocupe. Tudo isso será explicado no nosso próximo módulo!
 
 ## Observações Finais
