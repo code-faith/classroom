@@ -138,3 +138,6 @@ valor = somar(2, 3)
 
 puts valor # 5
 ```
+
+## Observações finais
+Esse módulo introduz o contexto geral de como estruturas de dados funcionam, o seu desenvolvimento em algoritmos irá depender de como você usa essas estruturas para resovler um problema.
