@@ -76,8 +76,8 @@ hashmap = {
   chave2: "Olá"
 }
 
-hashmap["chave1"] # 10
-hashmap["chave2"] # "Olá"
+hashmap[:chave1] # 10
+hashmap[:chave2] # "Olá"
 ```
 
 ## Condicionais
